@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("bg.webp");
+    background-size: cover;
+}
+
+.player {
+    text-align: center;
+}
+
+.cover {
+    margin-top: 10px;
+}
+
+#cover {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+#cover.rotating {
+    transform: rotate(360deg);
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+#playbtn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#volume {
+    width: 35%;
+}
+
+#progress {
+    width: 70%;
+}
